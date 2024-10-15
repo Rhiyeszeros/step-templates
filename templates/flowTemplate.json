@@ -35,19 +35,7 @@
         },
         {
             "name": "Passwordless Login",
-            "behavior": "Explain in detail the advantages of passwordless login.",
-            "steps": [
-                {
-                    "name": "Passwordless Login",
-                    "behavior": "Explain in detail the advantages of passwordless login.",
-                    "steps": [
-                        {
-                            "name": "Passwordless Login",
-                            "behavior": "Explain in detail the advantages of passwordless login."
-                        }
-                    ]
-                }
-            ]
+            "behavior": "Explain in detail the advantages of passwordless login."
         },
         {
             "name": "2FA",
