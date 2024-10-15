@@ -13,7 +13,9 @@
     "steps": [
         {
             "name": "When passwords get stolen",
-            "behavior": "Explain to the user why stolen passwords can be a threat to them and their data."
+            "behavior": "Explain to the user why stolen passwords can be a threat to them and their data.",
+            "responseLength": "concise",
+            "personality": "harsh and strict",
         },
         {
             "name": "Check for stolen data",
