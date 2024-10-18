@@ -1,0 +1,4 @@
+{
+    "name": "Create list of stolen data",
+    "behavior": "Tell the user that they should write down for which websites their data got compromised."
+}

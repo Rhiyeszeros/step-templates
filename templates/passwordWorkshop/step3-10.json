@@ -1,0 +1,34 @@
+[
+{
+    "name": "Handling of compromised data",
+    "behavior": "Tell the user that you will guide them in how to secure their accounts correctly and prevent future incidents."
+},
+{
+    "name": "Login Methods",
+    "behavior": "Give the user an overview over the different security levels of login methods. From unsafe to safe: 1. Password only 2. Password with SMS or call as 2FA 3. 2FA with security app or device. 4. Login methods without passwords (Biometry, Face recognition, Passkeys)."
+},
+{
+    "name": "Passwordless Login",
+    "behavior": "Explain in detail the advantages of passwordless login."
+},
+{
+    "name": "2FA",
+    "behavior": "Explain in detail how and why 2FA increases account security."
+},
+{
+    "name": "1-Button Login",
+    "behavior": "Explain to the user why logging in via a 3rd party provider (e.g. login with Google) poses some security risks."
+},
+{
+    "name": "Creating secure passwords",
+    "behavior": "Give the user different methods of coming up with secure passwords. (e.g. sentence where the starting letters of the word make the password). Also advertise the password generator on https://www.random.org/"
+},
+{
+    "name": "Storing an managing passwords",
+    "behavior": "Explain why and how password managers help storing, organizing and accessing passwords and why this is more secure."
+},
+{
+    "name": "Staying alert",
+    "behavior": "Explain how staying alert is important and that passwords and logins should regularly be checked for suspicious activity. Advertise the notifications service on https://haveibeenpwned.com/NotifyMe where they get notified if their data appears in a leak."
+}
+]
