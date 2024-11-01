@@ -1,5 +1,5 @@
 {
-    "name": "Quiz",
+    "name": "dataPro_Quiz",
     "type": "intent",
     "targetAudience": "Students",
     "targetAudienceAge": {
