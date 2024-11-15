@@ -13,38 +13,40 @@
   "goal": "The goal of this learning journey is to learn about data protection.",
   "steps": [
     {
-      "name": "When passwords get stolen",
-      "goal": "The student knows the reasons behind credential/identity theft.",
-      "behavior": "Explain to the user why stolen passwords can be a threat to them and their data.",
-      "responseLength": "concise",
-      "personality": "harsh and strict",
-      "steps": [
-        {
-          "step": {
-            "name": "2FA",
-            "goal": "The student knows means to check if their credentials got stolen.",
-            "behavior": "Explain to the student where they can check for stolen passwords or emails.",
-            "responseLength": "concise",
-            "personality": "harsh and strict"
+      "step": {
+        "name": "When passwords get stolen",
+        "goal": "The student knows the reasons behind credential/identity theft.",
+        "behavior": "Explain to the user why stolen passwords can be a threat to them and their data.",
+        "responseLength": "concise",
+        "personality": "harsh and strict",
+        "steps": [
+          {
+            "step": {
+              "name": "2FA",
+              "goal": "The student knows means to check if their credentials got stolen.",
+              "behavior": "Explain to the student where they can check for stolen passwords or emails.",
+              "responseLength": "concise",
+              "personality": "harsh and strict"
+            }
+          },
+          {
+            "intent": {
+              "name": "Quiz",
+              "topics": "Credential Theft",
+              "goal": "The student should answer a short quiz on identity theft and 2FA.",
+              "capabilities": [
+                {
+                  "name": "Quiz Mode",
+                  "behavior": "Engage students in quizzes to test knowledge on data protection.",
+                  "conversationStyle": "challenging yet supportive",
+                  "responseLength": "short and precise",
+                  "feedbackStyle": "constructive feedback"
+                }
+              ]
+            }
           }
-        },
-        {
-          "intent": {
-            "name": "Quiz",
-            "topics": "Credential Theft",
-            "goal": "The student should answer a short quiz on identity theft and 2FA.",
-            "capabilities": [
-              {
-                "name": "Quiz Mode",
-                "behavior": "Engage students in quizzes to test knowledge on data protection.",
-                "conversationStyle": "challenging yet supportive",
-                "responseLength": "short and precise",
-                "feedbackStyle": "constructive feedback"
-              }
-            ]
-          }
-        }
-      ]
+        ]
+      }
     },
     {
       "step": {
