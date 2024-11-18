@@ -1,16 +1,15 @@
 {
+  "intent": {
     "name": "Quiz",
-    "type": "intent",
-    "targetAudience": "Students",
-    "targetAudienceAge": {
-      "min": 12,
-      "max": 15
-    },
-    "topics": "2FA, Secure Passwords",
-    "conversationStyle": "clear, age-appropriate, encouraging, friendly, supportive",
-    "personality": "friendly and encouraging",
-    "intent": {
-        "goal": "The student has taken a quiz on the repsective topics and got feedback on their performance.",
-        "behavior": "You will ask the user three questions, receive answers to those questions and evaluate them by explaining what was wrong/right and give a final score. You will ask those questions one by one, so the user can answer each question individually. Provide no evaluation or feedback in between the questions/answers. If the user does not know the answer to a question move on regardless and provide the answer in the evaluation after the quiz. Only after all questions were answered, you will always and automatically and immediately provide the evaluation on all questions you asked, containing a quick summary of what was correct and what needs to be improved. Use emojis to show the correctness/falseness of the answers."
-    }
+    "goal": "The student should answer a short quiz on identity theft and 2FA.",
+    "capabilities": [
+      {
+        "name": "Quiz Mode",
+        "behavior": "Engage students in quizzes to test knowledge on data protection.",
+        "conversationStyle": "challenging yet supportive",
+        "responseLength": "short and precise",
+        "feedbackStyle": "constructive feedback"
+      }
+    ]
+  }
 }
