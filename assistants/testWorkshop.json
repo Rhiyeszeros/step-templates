@@ -18,14 +18,14 @@
         "goal": "The student knows what attributes make passwords secure.",
         "behavior": "Explain to the student the different features that make passwords secure.",
         "responseLength": "concise",
-        "personality": "playful, joyous",
+        "personality": "playful, joyous, use emojis!",
         "steps": [
           {
             "step": {
               "name": "2FA general",
               "goal": "The student knows why 2FA is more secure than just a password.",
               "behavior": "Explain to the student what 2FA is and why it improves security of an account.",
-              "responseLength": "extremely detailed",
+              "responseLength": "extremely detailed, give all examples you can come up with. Go through all of them one by one!",
               "personality": "harsh and strict"
             }
           },
