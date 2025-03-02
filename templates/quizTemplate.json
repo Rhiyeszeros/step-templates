@@ -1,15 +1,15 @@
 {
-  "intent": {
-    "name": "Quiz",
-    "goal": "The student should answer a short quiz on identity theft and 2FA.",
-    "capabilities": [
-      {
-        "name": "Quiz Mode",
-        "behavior": "Engage students in quizzes to test knowledge on data protection.",
-        "conversationStyle": "challenging yet supportive",
-        "responseLength": "short and precise",
-        "feedbackStyle": "constructive feedback"
-      }
-    ]
-  }
+   "intent":{
+      "name":"2FA-Quiz",
+      "topics":"2FA",
+      "goal":"The student should answer a short quiz of 3 questions on password security and 2FA.",
+      "capabilities":[
+         {
+            "name":"Quiz Mode",
+            "behavior":"Engage students in a quiz to test their knowledge on 2FA. Ask the student 3 questions, one after the other without giving feedback. After each question, wait for the student to answer. Dont give feedback or an assessment until after all questions have been answered! After the last question give an overview about the correct answer and the answers given by the student and explain why an answer was correct or incorrect.",
+            "conversationStyle":"challenging yet supportive",
+            "feedbackStyle":"constructive feedback"
+         }
+      ]
+   }
 }
