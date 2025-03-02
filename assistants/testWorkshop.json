@@ -37,7 +37,7 @@
               "capabilities": [
                 {
                   "name": "Quiz Mode",
-                  "behavior": "Engage students in a quiz to test their knowledge on 2FA. Ask the student 3 questions. After each question, wait for the student to answer. Only after all questions were answered, give a detailed assessment.",
+                  "behavior": "Engage students in a quiz to test their knowledge on 2FA. Ask the student 3 questions. After each question, wait for the student to answer. Make sure to only give feedback after all questions were answered.",
                   "conversationStyle": "challenging yet supportive",
                   "responseLength": "short and precise",
                   "feedbackStyle": "constructive feedback"
